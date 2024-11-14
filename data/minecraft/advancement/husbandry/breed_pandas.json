@@ -1,0 +1,525 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo"
+    },
+    "title": "Mendelian Inheritance",
+    "description": "Breed Pandas and make them have seven different types of offspring",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "criteria": {
+    "normal_normal": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"normal\", HiddenGene: \"normal\"}"
+        }
+      }
+    },
+    "normal_aggressive": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"normal\", HiddenGene: \"aggressive\"}"
+        }
+      }
+    },
+    "normal_lazy": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"normal\", HiddenGene: \"lazy\"}"
+        }
+      }
+    },
+    "normal_worried": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"normal\", HiddenGene: \"worried\"}"
+        }
+      }
+    },
+    "normal_playful": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"normal\", HiddenGene: \"playful\"}"
+        }
+      }
+    },
+    "normal_weak": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"normal\", HiddenGene: \"weak\"}"
+        }
+      }
+    },
+    "normal_brown": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"normal\", HiddenGene: \"brown\"}"
+        }
+      }
+    },
+    "aggressive_normal": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"aggressive\", HiddenGene: \"normal\"}"
+        }
+      }
+    },
+    "aggressive_aggressive": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"aggressive\", HiddenGene: \"aggressive\"}"
+        }
+      }
+    },
+    "aggressive_lazy": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"aggressive\", HiddenGene: \"lazy\"}"
+        }
+      }
+    },
+    "aggressive_worried": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"aggressive\", HiddenGene: \"worried\"}"
+        }
+      }
+    },
+    "aggressive_playful": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"aggressive\", HiddenGene: \"playful\"}"
+        }
+      }
+    },
+    "aggressive_weak": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"aggressive\", HiddenGene: \"weak\"}"
+        }
+      }
+    },
+    "aggressive_brown": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"aggressive\", HiddenGene: \"brown\"}"
+        }
+      }
+    },
+    "lazy_normal": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"lazy\", HiddenGene: \"normal\"}"
+        }
+      }
+    },
+    "lazy_aggressive": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"lazy\", HiddenGene: \"aggressive\"}"
+        }
+      }
+    },
+    "lazy_lazy": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"lazy\", HiddenGene: \"lazy\"}"
+        }
+      }
+    },
+    "lazy_worried": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"lazy\", HiddenGene: \"worried\"}"
+        }
+      }
+    },
+    "lazy_playful": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"lazy\", HiddenGene: \"playful\"}"
+        }
+      }
+    },
+    "lazy_weak": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"lazy\", HiddenGene: \"weak\"}"
+        }
+      }
+    },
+    "lazy_brown": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"lazy\", HiddenGene: \"brown\"}"
+        }
+      }
+    },
+    "worried_normal": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"worried\", HiddenGene: \"normal\"}"
+        }
+      }
+    },
+    "worried_aggressive": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"worried\", HiddenGene: \"aggressive\"}"
+        }
+      }
+    },
+    "worried_lazy": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"worried\", HiddenGene: \"lazy\"}"
+        }
+      }
+    },
+    "worried_worried": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"worried\", HiddenGene: \"worried\"}"
+        }
+      }
+    },
+    "worried_playful": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"worried\", HiddenGene: \"playful\"}"
+        }
+      }
+    },
+    "worried_weak": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"worried\", HiddenGene: \"weak\"}"
+        }
+      }
+    },
+    "worried_brown": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"worried\", HiddenGene: \"brown\"}"
+        }
+      }
+    },
+    "playful_normal": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"playful\", HiddenGene: \"normal\"}"
+        }
+      }
+    },
+    "playful_aggressive": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"playful\", HiddenGene: \"aggressive\"}"
+        }
+      }
+    },
+    "playful_lazy": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"playful\", HiddenGene: \"lazy\"}"
+        }
+      }
+    },
+    "playful_worried": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"playful\", HiddenGene: \"worried\"}"
+        }
+      }
+    },
+    "playful_playful": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"playful\", HiddenGene: \"playful\"}"
+        }
+      }
+    },
+    "playful_weak": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"playful\", HiddenGene: \"weak\"}"
+        }
+      }
+    },
+    "playful_brown": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"playful\", HiddenGene: \"brown\"}"
+        }
+      }
+    },
+    "weak_weak": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"weak\"}"
+        }
+      }
+    },
+    "brown_brown": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"brown\"}"
+        }
+      }
+    },
+    "weak_normal": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"normal\"}"
+        }
+      }
+    },
+    "weak_aggressive": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"aggressive\"}"
+        }
+      }
+    },
+    "weak_lazy": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"lazy\"}"
+        }
+      }
+    },
+    "weak_worried": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"worried\"}"
+        }
+      }
+    },
+    "weak_playful": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"playful\"}"
+        }
+      }
+    },
+    "weak_brown": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"brown\"}"
+        }
+      }
+    },
+    "brown_normal": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"normal\"}"
+        }
+      }
+    },
+    "brown_aggressive": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"aggressive\"}"
+        }
+      }
+    },
+    "brown_lazy": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"lazy\"}"
+        }
+      }
+    },
+    "brown_worried": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"worried\"}"
+        }
+      }
+    },
+    "brown_playful": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"playful\"}"
+        }
+      }
+    },
+    "brown_weak": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"weak\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "normal_normal",
+      "normal_aggressive",
+      "normal_lazy",
+      "normal_worried",
+      "normal_playful",
+      "normal_weak",
+      "normal_brown",
+      "weak_normal",
+      "weak_aggressive",
+      "weak_lazy",
+      "weak_worried",
+      "weak_playful",
+      "weak_brown",
+      "brown_normal",
+      "brown_aggressive",
+      "brown_lazy",
+      "brown_worried",
+      "brown_playful",
+      "brown_weak"
+    ],
+    [
+      "aggressive_normal",
+      "aggressive_aggressive",
+      "aggressive_lazy",
+      "aggressive_worried",
+      "aggressive_playful",
+      "aggressive_weak",
+      "aggressive_brown"
+    ],
+    [
+      "lazy_normal",
+      "lazy_aggressive",
+      "lazy_lazy",
+      "lazy_worried",
+      "lazy_playful",
+      "lazy_weak",
+      "lazy_brown"
+    ],
+    [
+      "worried_normal",
+      "worried_aggressive",
+      "worried_lazy",
+      "worried_worried",
+      "worried_playful",
+      "worried_weak",
+      "worried_brown"
+    ],
+    [
+      "playful_normal",
+      "playful_aggressive",
+      "playful_lazy",
+      "playful_worried",
+      "playful_playful",
+      "playful_weak",
+      "playful_brown"
+    ],
+    [
+      "weak_weak"
+    ],
+    [
+      "brown_brown"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

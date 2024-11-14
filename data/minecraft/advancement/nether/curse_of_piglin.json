@@ -1,0 +1,241 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": "Curse of Piglin",
+    "description": "Distract a Piglin with some cursed golden item...",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/distract_piglin",
+  "criteria": {
+    "binding_curse_golden_helmet": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "minecraft:golden_helmet",
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:binding_curse": 1
+            }
+          }
+        }
+      }
+    },
+    "binding_curse_golden_chestplate": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "minecraft:golden_chestplate",
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:binding_curse": 1
+            }
+          }
+        }
+      }
+    },
+    "binding_curse_golden_leggings": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "minecraft:golden_leggings",
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:binding_curse": 1
+            }
+          }
+        }
+      }
+    },
+    "binding_curse_golden_boots": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "minecraft:golden_boots",
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:binding_curse": 1
+            }
+          }
+        }
+      }
+    },
+    "vanishing_curse_golden_helmet": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "minecraft:golden_helmet",
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:vanishing_curse": 1
+            }
+          }
+        }
+      }
+    },
+    "vanishing_curse_golden_chestplate": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "minecraft:golden_chestplate",
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:vanishing_curse": 1
+            }
+          }
+        }
+      }
+    },
+    "vanishing_curse_golden_leggings": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "minecraft:golden_leggings",
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:vanishing_curse": 1
+            }
+          }
+        }
+      }
+    },
+    "vanishing_curse_golden_boots": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "minecraft:golden_boots",
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:vanishing_curse": 1
+            }
+          }
+        }
+      }
+    },
+    "vanishing_curse_golden_sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "minecraft:golden_sword",
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:vanishing_curse": 1
+            }
+          }
+        }
+      }
+    },
+    "vanishing_curse_golden_pickaxe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "minecraft:golden_pickaxe",
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:vanishing_curse": 1
+            }
+          }
+        }
+      }
+    },
+    "vanishing_curse_golden_axe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "minecraft:golden_axe",
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:vanishing_curse": 1
+            }
+          }
+        }
+      }
+    },
+    "vanishing_curse_golden_shovel": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "minecraft:golden_shovel",
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:vanishing_curse": 1
+            }
+          }
+        }
+      }
+    },
+    "vanishing_curse_golden_hoe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": "minecraft:golden_hoe",
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:vanishing_curse": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "binding_curse_golden_helmet",
+      "binding_curse_golden_chestplate",
+      "binding_curse_golden_leggings",
+      "binding_curse_golden_boots",
+      "vanishing_curse_golden_helmet",
+      "vanishing_curse_golden_chestplate",
+      "vanishing_curse_golden_leggings",
+      "vanishing_curse_golden_boots",
+      "vanishing_curse_golden_sword",
+      "vanishing_curse_golden_pickaxe",
+      "vanishing_curse_golden_axe",
+      "vanishing_curse_golden_shovel",
+      "vanishing_curse_golden_hoe"
+    ]
+  ]
+}

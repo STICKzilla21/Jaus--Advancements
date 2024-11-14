@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": "Cleaning Waters",
+    "description": "Catch all types of Axolotls!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/axolotl_in_a_bucket",
+  "criteria": {
+    "lucy_axolotl": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:water_bucket"
+        },
+        "entity": {
+          "type": "minecraft:axolotl",
+          "type_specific": {
+            "type": "minecraft:axolotl",
+            "variant": "lucy"
+          }
+        }
+      }
+    },
+    "wild_axolotl": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:water_bucket"
+        },
+        "entity": {
+          "type": "minecraft:axolotl",
+          "type_specific": {
+            "type": "minecraft:axolotl",
+            "variant": "wild"
+          }
+        }
+      }
+    },
+    "gold_axolotl": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:water_bucket"
+        },
+        "entity": {
+          "type": "minecraft:axolotl",
+          "type_specific": {
+            "type": "minecraft:axolotl",
+            "variant": "gold"
+          }
+        }
+      }
+    },
+    "cyan_axolotl": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:water_bucket"
+        },
+        "entity": {
+          "type": "minecraft:axolotl",
+          "type_specific": {
+            "type": "minecraft:axolotl",
+            "variant": "cyan"
+          }
+        }
+      }
+    },
+    "blue_axolotl": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:water_bucket"
+        },
+        "entity": {
+          "type": "minecraft:axolotl",
+          "type_specific": {
+            "type": "minecraft:axolotl",
+            "variant": "blue"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+}

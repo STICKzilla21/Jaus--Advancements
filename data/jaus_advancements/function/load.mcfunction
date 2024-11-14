@@ -1,0 +1,1 @@
+tellraw @a {"text":"Jaus' Advancements has loaded succesfully (made by STICKzilla21)","color":"green"}

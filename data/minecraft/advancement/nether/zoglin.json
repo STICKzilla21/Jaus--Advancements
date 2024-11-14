@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": "Oops, Wrong Effect",
+    "description": "Bring a Hoglin to the surface, wait for it to zombify... and kill it with Splash Potions of Healing",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/nether_wart",
+  "criteria": {
+    "healing": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zoglin"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:potion",
+            "nbt": "{Item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:healing\"}},count:1,id:\"minecraft:splash_potion\"}}"
+          }
+        }
+      }
+    },
+    "strong_healing": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zoglin"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:potion",
+            "nbt": "{Item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_healing\"}},count:1,id:\"minecraft:splash_potion\"}}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "healing",
+      "strong_healing"
+    ]
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_horn"
+    },
+    "title": "Take the Goat by the Horns",
+    "description": "Obtain every Goat Horn and enjoy the sound of nature",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/leash_a_screaming_goat",
+  "criteria": {
+    "admire_goat_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn",
+            "components": {
+              "minecraft:instrument": "minecraft:admire_goat_horn"
+            }
+          }
+        ]
+      }
+    },
+    "call_goat_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn",
+            "components": {
+              "minecraft:instrument": "minecraft:call_goat_horn"
+            }
+          }
+        ]
+      }
+    },
+    "dream_goat_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn",
+            "components": {
+              "minecraft:instrument": "minecraft:dream_goat_horn"
+            }
+          }
+        ]
+      }
+    },
+    "feel_goat_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "components": {
+              "minecraft:instrument": "minecraft:feel_goat_horn"
+            }
+          }
+        ]
+      }
+    },
+    "ponder_goat_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "components": {
+              "minecraft:instrument": "minecraft:ponder_goat_horn"
+            }
+          }
+        ]
+      }
+    },
+    "seek_goat_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "components": {
+              "minecraft:instrument": "minecraft:seek_goat_horn"
+            }
+          }
+        ]
+      }
+    },
+    "sing_goat_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "components": {
+              "minecraft:instrument": "minecraft:sing_goat_horn"
+            }
+          }
+        ]
+      }
+    },
+    "yearn_goat_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "components": {
+              "minecraft:instrument": "minecraft:yearn_goat_horn"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

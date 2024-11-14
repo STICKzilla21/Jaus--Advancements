@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": "The Ideal Repellent",
+    "description": "Light a Soul Fire to scare the Piglins",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "soul_sand": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:flint_and_steel"
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:soul_sand",
+            "properties": {}
+          }
+        ]
+      }
+    },
+    "soul_soil": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:flint_and_steel"
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:soul_soil",
+            "properties": {}
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "soul_sand",
+      "soul_soil"
+    ]
+  ]
+}

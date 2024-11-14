@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_banner",
+      "components": {
+        "minecraft:banner_patterns": [
+          {
+            "pattern": "minecraft:rhombus",
+            "color": "cyan"
+          },
+          {
+            "pattern": "minecraft:stripe_bottom",
+            "color": "light_gray"
+          },
+          {
+            "pattern": "minecraft:stripe_center",
+            "color": "gray"
+          },
+          {
+            "pattern": "minecraft:border",
+            "color": "light_gray"
+          },
+          {
+            "pattern": "minecraft:stripe_middle",
+            "color": "black"
+          },
+          {
+            "pattern": "minecraft:half_horizontal",
+            "color": "light_gray"
+          },
+          {
+            "pattern": "minecraft:circle",
+            "color": "light_gray"
+          },
+          {
+            "pattern": "minecraft:border",
+            "color": "black"
+          }
+        ]
+      }
+    },
+    "title": "Hero of the World",
+    "description": "Successfully defend a village from a level five raid",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/hero_of_the_village",
+  "criteria": {
+    "hero_of_the_world": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:hero_of_the_village": {
+            "amplifier": 4
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  }
+}

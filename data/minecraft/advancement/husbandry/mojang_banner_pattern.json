@@ -1,0 +1,327 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mojang_banner_pattern"
+    },
+    "title": "Fruit on the Loom",
+    "description": "Make a Banner using an Enchanted Golden Apple... wait, did you really do that?",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/balanced_diet",
+  "criteria": {
+    "white": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "white"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "orange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "orange"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "magenta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "magenta"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "light_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "light_blue"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "yellow"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "lime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "lime"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "pink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "pink"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "gray"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "light_gray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "light_gray"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "cyan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "cyan"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "purple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "purple"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "blue"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "brown"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "green"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "red"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:banners",
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "black"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "white",
+      "orange",
+      "magenta",
+      "light_blue",
+      "yellow",
+      "lime",
+      "pink",
+      "gray",
+      "light_gray",
+      "cyan",
+      "purple",
+      "blue",
+      "brown",
+      "green",
+      "red",
+      "black"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}
